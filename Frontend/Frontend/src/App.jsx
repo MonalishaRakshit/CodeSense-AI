@@ -5,8 +5,8 @@ const Editor = EditorPackage.default;
 import { highlight, languages } from "prismjs/components/prism-core";
 import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
-//import rehypeHighlight from "rehype-highlight";
-//import "highlight.js/styles/github-dark.css";
+import rehypeHighlight from "rehype-highlight";
+import "highlight.js/styles/github-dark.css";
 import Markdown from "react-markdown";
 import axios from "axios";
 import "./App.css";
@@ -49,12 +49,7 @@ function App() {
           </div>
         </div>
         <div className="right">
-          <Markdown
-
-          //  rehypePlugins={[rehypeHighlight]}
-          >
-            {review}
-          </Markdown>
+          <Markdown rehypePlugins={[rehypeHighlight]}>{review}</Markdown>
         </div>
       </main>
     </>
