@@ -39,13 +39,13 @@ function App() {
               style={{
                 fontFamily: '"Fira code", "Fira Mono", monospace',
                 fontSize: 16,
-                height: "100%",
+                minHeight: "100%",
                 width: "100%",
               }}
             />
           </div>
           <div onClick={reviewCode} className="review">
-            Review
+            🔍 Review Code
           </div>
         </div>
         <div className="right">
