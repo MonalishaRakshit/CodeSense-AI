@@ -29,6 +29,9 @@ The application provides a two-panel interface:
 
 Click **Review Code** to send the current code to the backend and generate an AI review.
 
+### Code Review Interface
+
+![AI Code Reviewer - Improved Code](Demo/ImprovedCode.png)
 ---
 
 ## 🛠️ Tech Stack
