@@ -31,7 +31,16 @@ Click **Review Code** to send the current code to the backend and generate an AI
 
 ### Code Review Interface
 
-![AI Code Reviewer - Improved Code](Demo/ImprovedCode.png)
+![Code Review Interface](Demo/ImprovedCode.png)
+
+### Issues & Bug Detection
+
+![Issues Detection](Demo/Issues.png)
+
+### Step-by-Step Improvements
+
+![Step-by-Step Improvements](Demo/StepsImprovement.png)
+
 ---
 
 ## 🛠️ Tech Stack
